@@ -1,0 +1,15 @@
+Data Sets Explorer may be used to explore any data set here i limited my self to three data sets only
+       
+if you chose:
+
+1-plot :The app wil calculate the correlations between all the variables in the data sets
+
+and show nice heat map exploring these correlations .
+
+2-summary : you will get summary of the data set. 
+
+3- view: you will show you the first n rows of the data sets based on the value you enter in the number of 
+
+the observations the numeric input box. 
+
+4-Structure: you will get the general structure of the data set.

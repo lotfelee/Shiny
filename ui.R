@@ -7,7 +7,8 @@ shinyUI(pageWithSidebar(
                      conditionalPanel(
                              condition = "input.func == 'head'",numericInput("obs", "Number of observations to view:", 10)),
                      radioButtons("func", "Function",c("Plot" = "plot","Summary" = "summary","Structure" = "str","View"="head"))
-                     ,helpText("Data Sets Explorer may be used to explore any data set here i limited my self to three data sets only 
+                     ,helpText("Help :   
+                                 Data Sets Explorer may be used to explore any data set here i limited my self to three data sets only
                                if you chose:plot :The app wil calculate the correlations between all the variables in the data sets
                                and show nice heat map exploring these correlations summary : you will get summary of the data set ,   
                               view: you will show you the first n rows of the data sets based on the value you enter in the number of 
